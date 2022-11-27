@@ -258,7 +258,7 @@ void carsFilterModelList()
         system("clear");
         printf("Ingresa el a%co de consulta: ",164);
         scanf("%d",&year);
-        if(year<1980&&year>2023)
+        if(year<1980||year>2023)
         {
             printf("Ingresa un modelo valido...\n");
             system("pause");

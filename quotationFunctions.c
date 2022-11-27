@@ -464,14 +464,13 @@ void disableClient()
                             system("pause");
                             break;
                         }
-                        else
-                        {
-                            clients[i].status=0;
-                            printf("Cliente deshabilitado...\n");
-                            system("pause");
-                            system("clear");
-                            break;
-                        }
+                    }
+                    if(id!=quotes[j].clientId)
+                    {
+                        clients[i].status=0;
+                        printf("Cliente deshabilitado...\n");
+                        system("pause");
+                        system("clear");
                     }
                 }
                 break;
